@@ -1,0 +1,36 @@
+.personal-info{
+margin-left: 10px;
+
+}
+.container{
+   margin-right: 0px;
+
+}
+.personal-info-form{
+    width: 200px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.piggy-bank{
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: -10px;
+    width:300px;
+}
+form{
+    width:50% !important;
+    }
+.col-md-8{
+    width: 50% !important;
+}
+h1{
+   color: #36CC7C;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}

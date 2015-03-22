@@ -1,0 +1,106 @@
+h1{
+    color: green;
+}
+h1{font-size:300%}
+p{
+    font-size:150%
+    }
+p{font-family: open sans-seriff}
+
+.points{
+    margin-left: 20px;
+}
+h1{
+color: 36CC7C;
+font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+body{
+    background: white;
+}
+p{
+    color: black;
+font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+element.style{
+
+* {
+    box-sizing: border-box;
+
+}
+.menu {
+    text-align: center;
+    letter-spacing: 2px;
+
+    .description {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+p {
+  margin: 0 0 10px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheetp {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+Inherited from body
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+Inherited from html
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+    
+a.menu
+{
+   color: #DF0174;
+   text-decoration: none;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #DF0174;
+  text-decoration: none !important;
+
+}
+}
+

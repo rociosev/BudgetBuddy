@@ -1,0 +1,40 @@
+h1{
+color: #FE2E9A;
+font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+body{
+    /*background: #F6CEEC;*/
+}
+p{
+    color: black;
+font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+element.style{
+
+* {
+    box-sizing: border-box;
+
+}
+.menu {
+    text-align: center;
+    letter-spacing: 2px;
+    
+.nav {
+    text-align: center;
+}
+    
+a.menu
+{
+   color: #DF0174;
+   text-decoration: none;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #DF0174;
+  text-decoration: none !important;
+
+}

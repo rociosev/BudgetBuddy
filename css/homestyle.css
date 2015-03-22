@@ -1,0 +1,140 @@
+/*html{
+  
+  height: 2000px;
+}
+.mobile {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+div {
+    padding: 0 30px 15px;
+    text-align: center;
+}
+  button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 0;
+    text-indent: 200%;
+    overflow: hidden;
+    background: #228765 url(http://i.imgur.com/vKRaKDX.png) center no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    transition: all 400ms ease;
+    &.expanded
+      transform: rotate(90deg);
+      background-color: transparent;
+      border: 0;
+  }
+  
+  a{
+    display: block;
+
+  background: #228765;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #222;
+  &:hover, &:active, &:focus
+    background: darken(#eee, 3%);
+     width: 25%;
+    float: left;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    &:last-child
+      border-right: none;
+}
+
+.desktop {
+  display: block;
+  overflow: hidden;
+  }
+
+.nav {
+  padding: 0 30px 15px;
+    alignment-adjust: central;
+}
+    
+article {
+  padding: 0 30px 15px;
+}
+
+
+@media (max-width: 800px)
+  .mobile
+    display: block;
+  .desktop
+    display: none;
+    */
+
+h1{
+  color: #36CC7C;
+font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 10px;
+}
+h2{
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+}
+h3{
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+}
+body{
+    background: white;
+}
+p{
+    color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+.enter-data{
+  text-align: center;
+}
+a{
+  color:#228765;
+}
+a:hover{
+  text-decoration: none;
+  color: #228765;
+}
+/*.desktop {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td 
+{
+    height: 50px; 
+    width:50px;
+}
+
+#cssTable td 
+{
+    text-align:center; 
+    vertical-align:middle;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #DF0174;
+  text-decoration: none !important;
+}
