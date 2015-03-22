@@ -9,8 +9,6 @@
 
     <!-- Bootstrap -->
      <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-  
        <link href="css/menu.css" rel="stylesheet">
         <link href="css/contactstyle.css" rel="stylesheet">
   <link href="css/homestyle.css" rel="stylesheet">
@@ -58,21 +56,29 @@
 <p>  We love reading these!</p>
   <p>Any questions, concerns, comments, ideas, inspiration, etc.</p>
   
-  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <form class="contact_form" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 	<div class="row">
-		<label for="name">Your name:</label><br />
+		<label for="name">Name</label><br />
 		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
 	</div>
 	<div class="row">
-		<label for="email">Your email:</label><br />
+		<label for="email">E-mail</label><br />
 		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
 	</div>
 	<div class="row">
-		<label for="message">Your message:</label><br />
+		<label for="message">Message</label><br />
 		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 	</div>
 	<input id="submit_button" type="submit" value="Send email" />
 </form>					
         </div>
     </div>
-    </body>
+  
+ <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

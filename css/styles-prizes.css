@@ -1,7 +1,16 @@
 h1{
     color: green;
 }
-h1{font-size:300%}
+h1{
+  color: #36CC7C;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
 p{
     font-size:150%
     }
@@ -10,12 +19,7 @@ p{font-family: open sans-seriff}
 .points{
     margin-left: 20px;
 }
-h1{
-color: 36CC7C;
-font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-}
+
 body{
     background: white;
 }
@@ -54,30 +58,28 @@ user agent stylesheetp {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
-Inherited from body
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
-}
-body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  font-weight: 300;
 }
-Inherited from html
+
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
 Pseudo ::before element
 :after, :before {
   -webkit-box-sizing: border-box;
@@ -105,6 +107,5 @@ a {
   color: #DF0174;
   text-decoration: none !important;
 
-}
 }
 
