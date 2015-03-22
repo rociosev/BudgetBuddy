@@ -4,13 +4,7 @@ font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
-body{
-    background: white;
-     color: black;
-font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-}
+
 p{
     color: black;
 font-family: 'Open Sans', sans-serif;
@@ -20,8 +14,7 @@ font-family: 'Open Sans', sans-serif;
 
 .menu {
     text-align: center;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;   
 }
     
 a {

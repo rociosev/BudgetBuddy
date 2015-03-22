@@ -10,6 +10,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/homestyle.css" rel="stylesheet">
+    <link href="css/goals-styles.css" rel="stylesheet">
+      
+     <link href="css/menu.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,10 +21,24 @@
     <![endif]-->
   </head>
   <body>
-    
+  <!-- nav menu starts-->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+    <!--makes normal page appeal -->
+    <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+    </div>
+    <!-- makes hamburger-->
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-               <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="budget.html">Set Goals</a></li>
                 <li><a href="data.html">Enter Receipts</a></li>
                 <li><a href="atm.html">Find an ATM</a></li>
@@ -29,17 +46,49 @@
                 <li><a href="contact.html">Contact us</a></li> 
             </ul>
         </div> 
+    
 </nav>
+ <!--navigation ends ends-->
     <div class="container">
         <div class="row title col-xs-12 col-sm-12 col-m-12 col-lg-12">
-        <h1>Budget Buddy</h1>
-        <p>An interactive app that will help you budget your money and help you achieve your saving goals on a monthly basis</p>
+        <h1>Set new goals</h1>
+ 
+        <p>"A goal without a plan is just a wish" <strong>Take action now</strong></p>
         </div>
-    </div>
+        
+          <div class= "row col-lg-12 col-md-12 col-sm-12 new-goal ">
+<form action="submit.html" class="submit-info">
+<fieldset>
 
+Date<br>
+<input class="amount" type="text" name="amount">
+<br>
+<br>
+    Store you want to rescrict yourself from<br>
+<input class="amount" type="text" name="amount">
+<br>
+  <br>
+  Total desired spending<br>
+<input type="text" name="store-name" >
+<br>
+  <br>
+Deadline to meet goal<br>
+<input class="amount" type="text" name="amount">
+<br>
+  <br>
+<p class="input-me"></p>
+<input class="submit-btn" type="button" value="Set Goal!">
+</fieldset>
+</form>
+    </div>
+        
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

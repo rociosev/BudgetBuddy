@@ -12,6 +12,6 @@ $.ajax({
 });
 
 $('.submit-btn').on("click", function(event){
-    $('.input-me').text('The information you entered has been saved. Continue navigating.');
+    $('.input-me').text('Awesome! The information you entered has been saved.');
    console.log($('input.amount').val()); 
 });
